@@ -7,7 +7,7 @@ echo " - Pusing to origin"
 echo " "
 
 echo "Updating Robot repo"
-cd robot
+cd rvctools_submodules/robot
 git checkout master
 git pull origin master
 git pull upstream master
@@ -42,4 +42,7 @@ git push origin master
 echo "Vision finished" 
 echo " "
 
-cd ..
+cd ../..
+
+echo "Please note only the submodules are updated. This repo still needs 
+to be updated by... git add, git commit, git push"
