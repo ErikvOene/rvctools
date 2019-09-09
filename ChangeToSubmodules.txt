@@ -13,3 +13,10 @@ git submodule add https://github.com/ErikvOene/robotics-toolbox-matlab.git rvcto
 git submodule add https://github.com/ErikvOene/machinevision-toolbox-matlab.git rvctools_submodules/vision
 git submodule add https://github.com/ErikvOene/toolbox-common-matlab.git rvctools_submodules/common
 git submodule add https://github.com/ErikvOene/spatial-math.git rvctools_submodules/smtb
+
+
+
+# set winmerge as mergetool:
+git config --global merge.tool winmerge
+git config --replace --global mergetool.winmerge.cmd "\"C:\Program Files (x86)\WinMerge\WinMergeU.exe\" -e -u -dl \"Base\" -dr \"Mine\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\""
+git config --global mergetool.prompt false
