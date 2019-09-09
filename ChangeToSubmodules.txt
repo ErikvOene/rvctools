@@ -16,7 +16,8 @@ git submodule add https://github.com/ErikvOene/spatial-math.git rvctools_submodu
 
 
 
-# set winmerge as mergetool:
+# set winmerge as mergetool: Still not working:
 git config --global merge.tool winmerge
 git config --replace --global mergetool.winmerge.cmd "\"C:\Program Files (x86)\WinMerge\WinMergeU.exe\" -e -u -dl \"Base\" -dr \"Mine\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\""
+git config --replace --global mergetool.winmerge.cmd \"C:\\Program Files (x86)\\WinMerge\\WinMergeU.exe\" -e -u -dl \"Base\" -dr \"Mine\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 git config --global mergetool.prompt false
