@@ -1,4 +1,10 @@
 # run this using ./update.sh
+echo "First update this repo using a git pull command in the master 
+branch"
+git checkout master
+git pull origin master
+echo " "
+
 echo "This will update the repos by:"
 echo " - Checkout the master branch"
 echo " - Pulling from origin"

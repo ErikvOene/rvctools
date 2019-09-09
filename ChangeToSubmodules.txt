@@ -39,3 +39,8 @@ open ~/.gitconfig and adde the following lines:
     name = WinMerge
     trustExitCode = true
     cmd = "/c/Program\\ Files\\ \\(x86\\)/WinMerge/WinMergeU.exe" -u -e $LOCAL $REMOTE
+
+
+
+# Set default git editor to nano:
+git config --global core.editor "nano"
