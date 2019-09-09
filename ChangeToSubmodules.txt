@@ -1,0 +1,15 @@
+I had a folder with 4 repos:
+common
+robot
+smtb
+vision
+
+all which where repos cloned from my fork and the upstreams set to peters.
+
+no I added som nice upperlayer restart_rvc etc and this want to add this as a master repo with the 4 repose mentioned above as submodules.
+
+git init
+git submodule add https://github.com/ErikvOene/robotics-toolbox-matlab.git rvctools_submodules/robot
+git submodule add https://github.com/ErikvOene/machinevision-toolbox-matlab.git rvctools_submodules/vision
+git submodule add https://github.com/ErikvOene/toolbox-common-matlab.git rvctools_submodules/common
+git submodule add https://github.com/ErikvOene/spatial-math.git rvctools_submodules/smtb

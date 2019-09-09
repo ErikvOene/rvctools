@@ -1,0 +1,12 @@
+[submodule "rvctools_submodules/robot"]
+	path = rvctools_submodules/robot
+	url = https://github.com/ErikvOene/robotics-toolbox-matlab.git
+[submodule "rvctools_submodules/vision"]
+	path = rvctools_submodules/vision
+	url = https://github.com/ErikvOene/machinevision-toolbox-matlab.git
+[submodule "rvctools_submodules/common"]
+	path = rvctools_submodules/common
+	url = https://github.com/ErikvOene/toolbox-common-matlab.git
+[submodule "rvctools_submodules/smtb"]
+	path = rvctools_submodules/smtb
+	url = https://github.com/ErikvOene/spatial-math.git

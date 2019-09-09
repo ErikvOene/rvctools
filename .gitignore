@@ -1,0 +1,14 @@
+# The folder containin rcvtools versions (zipfiles only)
+rvc_releases
+
+# The non-submodule git version
+rvctools_git
+
+# some old rcvtool release
+rvctools_old
+
+# any robot release version
+rvctools_robot-*
+
+# any vision release version
+rvctools_vision-*
