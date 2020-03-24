@@ -11,7 +11,7 @@ if sum(a) >0
     'continue the following folders will be removed from the path before ',...
     'added the ''new'' one:\n',repmat('\n%s',1,sum(a))],currentPath{a});
     answer = questdlg(questionStr,'Title','continue','cancel','cancel');
-    if strcmp(answer,'cancle')
+    if strcmp(answer,'cancel')
         return
     end
     % Remove these from the path

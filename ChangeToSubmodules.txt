@@ -44,3 +44,8 @@ open ~/.gitconfig and adde the following lines:
 
 # Set default git editor to nano:
 git config --global core.editor "nano"
+
+
+
+% when you clone this repo, the submodules may be empty / not cloned. This can be done by:
+git submodule update --init --recursive
