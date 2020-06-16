@@ -32,5 +32,9 @@ else
     if tf>1
         error('please select only one')
     end
-    run([rvctoolspath,filesep,foldernames{choice},filesep,'startup_rvc'])
+    try
+        run([rvctoolspath,filesep,foldernames{choice},filesep,'startup_rvc'])
+    catch ME
+        run([rvctoolspath,filesep,foldernames{choice},filesep,'common',filesep,'startup_rvc'])
+    end
 end

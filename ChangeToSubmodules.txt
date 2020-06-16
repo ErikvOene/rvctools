@@ -49,3 +49,14 @@ git config --global core.editor "nano"
 
 % when you clone this repo, the submodules may be empty / not cloned. This can be done by:
 git submodule update --init --recursive
+
+afther this you may have to set the upstreams using:
+cd rvctools_submodules
+cd robot
+git remote add upstream https://github.com/petercorke/robotics-toolbox-matlab.git
+cd ../smtb
+git remote add upstream https://github.com/petercorke/spatial-math.git
+cd ../common
+git remote add upstream https://github.com/petercorke/toolbox-common-matlab.git
+cd ../vision
+git remote add upstream https://github.com/petercorke/machinevision-toolbox-matlab.git
